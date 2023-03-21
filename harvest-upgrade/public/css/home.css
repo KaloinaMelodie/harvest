@@ -1,0 +1,22 @@
+/*
+This is the CSS, or Cascading Style Sheet. It helps us with the sizing and position of the tree. The fun part of this project is in Javascript, so check out the "JS" section to the right to change the animation.
+*/
+
+body {
+    background-color: #106b67;
+  }
+  .tree {
+      -webkit-transform: translateY(35px);
+          -ms-transform: translateY(35px);
+              transform: translateY(35px);
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://s3-us-west-2.amazonaws.com/made-with-code/tree.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }

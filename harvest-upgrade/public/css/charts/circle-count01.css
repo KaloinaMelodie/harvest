@@ -1,0 +1,28 @@
+
+body{
+    font-family: 'HomepageBaukasten', sans-serif;
+ }
+
+ .circle-counter {
+    height:260px;
+    width:260px;
+    background-color:white;
+    border: 22px solid #0072BC;
+    border-radius: 150px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin: 5px auto;
+ }
+
+ .header-counter {
+ color:rgb(85,85,85);
+ font-size:30px;
+ }
+
+ .number-counter {
+ color:rgb(85,85,85);
+ font-size:70px;
+
+ }

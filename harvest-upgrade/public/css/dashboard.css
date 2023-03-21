@@ -1,0 +1,24 @@
+.box{
+    margin-bottom: 30px;
+}
+
+#bigBox{
+    justify-content: space-between;
+    margin: 50px;
+}
+
+@media screen and (max-width: 1008px) {
+    .box {
+      width: 50%;
+      
+    }
+    body{
+        background-color: blue;
+    }
+  }
+
+  /* @media screen and (max-width: 600px) {
+    .box {
+      width: 100%;
+    }
+  } */

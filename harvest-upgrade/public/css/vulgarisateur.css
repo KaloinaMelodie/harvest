@@ -1,0 +1,29 @@
+#menu{
+	background: linear-gradient(80deg,#71FFB8,#F0F0F0);
+	border-bottom: 1px solid #F9F9F9;
+}
+#nav-tab button{
+	font-weight: 600;
+	font-family: century gothic;
+	color: black;
+}
+body{
+
+	min-height: 100vh;
+}
+#avatar{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 2px solid lightgrey;
+}
+#name{
+	font-weight: 400;
+	font-family: corbel;
+	font-size: 15px;
+	text-align: center;
+
+}
+#myprofile{
+	margin-top: 50px;
+}
